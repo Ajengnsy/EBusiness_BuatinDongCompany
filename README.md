@@ -3,7 +3,7 @@
 
 # BuatinDong Design Marketplace
 
-![BuatinDong Logo](https://via.placeholder.com/150x50.png?text=BuatinDong+Logo)  
+![BuatinDong Logo](images/icon.jpg)  
 *Platform marketplace untuk jasa desain website & ilustrasi vector.*
 
 ---
