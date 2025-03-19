@@ -1,3 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/151dd12e-4103-4d6c-abb9-ecfbe8c9615a/deploy-status)](https://app.netlify.com/sites/buatindong/deploys)
+
+
 # BuatinDong Design Marketplace
 
 ![BuatinDong Logo](https://via.placeholder.com/150x50.png?text=BuatinDong+Logo)  
