@@ -196,3 +196,18 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const db = getFirestore(app);
 
+
+const functions = require("firebase-functions");
+const stripe = require("stripe")("sk_test_...");
+
+exports.createCheckoutSession = functions.https.onRequest(async (req, res) => {
+  const session = await stripe.checkout.sessions.create({
+    payment_method_types: ["card"],
+    line_items: req.body.items,
+    mode: "payment",
+    success_url: "https://your-site.com/success",
+    cancel_url: "https://your-site.com/cancel",
+  });
+
+  res.json({ id: session.id });
+});
